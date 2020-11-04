@@ -2,11 +2,32 @@
   "name" : "Block public dns",
   "rules" : [
     {
+      "notes" : "Aaflalo",
+      "action" : "deny",
+      "owner" : "any",
+      "process" : "any",
+      "remote-addresses" : "176.56.236.175,168.235.81.167,2a00:d880:5:bf0::7c93,2604:180:f3::42"
+    },
+    {
       "notes" : "AdGuard",
       "action" : "deny",
       "owner" : "any",
       "process" : "any",
-      "remote-addresses" : "176.103.130.130,176.103.130.131"
+      "remote-addresses" : "176.103.130.130,176.103.130.131,2a00:5a60::ad2:ff,2a00:5a60::bad1:ff"
+    },
+    {
+      "notes" : "Alekberg",
+      "action" : "deny",
+      "owner" : "any",
+      "process" : "any",
+      "remote-addresses" : "51.15.124.208,104.168.247.138,45.153.187.96"
+    },
+    {
+      "notes" : "AliDNS",
+      "action" : "deny",
+      "owner" : "any",
+      "process" : "any",
+      "remote-addresses" : "223.5.5.5,223.6.6.6,2400:3200::1,2400:3200:baba::1"
     },
     {
       "notes" : "Cloudflare",
@@ -16,11 +37,25 @@
       "remote-addresses" : "1.1.1.1,1.0.0.1,104.16.248.249,104.16.249.249,104.18.2.55,104.18.3.55,104.18.27.128,104.18.26.128,2606:4700:4700::1001,2606:4700::6810:f9f9,2606:4700:4700::1111,2606:4700::6810:f8f9,2606:4700:4700::6400,2606:4700::6812:337,2606:4700::6812:237,2606:4700::6812:1a80,2606:4700::6812:1b80"
     },
     {
+      "notes" : "GeekDNS",
+      "action" : "deny",
+      "owner" : "any",
+      "process" : "any",
+      "remote-addresses" : "104.27.164.27,104.27.165.27,125.77.154.35,118.24.208.197,114.115.240.175,119.29.107.85"
+    },
+    {
       "notes" : "Google",
       "action" : "deny",
       "owner" : "any",
       "process" : "any",
       "remote-addresses" : "8.8.4.4,8.8.8.8,216.239.32.10,2001:4860:4860::8844,2001:4860:4860::8888,2001:4860:4860::6464,2001:4860:4860::64"
+    },
+    {
+      "notes" : "NextDNS",
+      "action" : "deny",
+      "owner" : "any",
+      "process" : "any",
+      "remote-addresses" : "45.90.28.207,45.90.30.207,2a07:a8c0::19:a482,2a07:a8c1::19:a482"
     },
     {
       "notes" : "Quad9",
