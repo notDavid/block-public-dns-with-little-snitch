@@ -58,14 +58,6 @@
       "remote-addresses" : "8.8.4.4,8.8.8.8,216.239.32.10,2001:4860:4860::8844,2001:4860:4860::8888,2001:4860:4860::6464,2001:4860:4860::64"
     },
     {
-      "notes" : "NextDNS",
-      "action" : "deny",
-      "priority" : "high",
-      "owner" : "any",
-      "process" : "any",
-      "remote-addresses" : "45.90.28.207,45.90.30.207,2a07:a8c0::19:a482,2a07:a8c1::19:a482"
-    },
-    {
       "notes" : "OpenDNS (Cisco)",
       "action" : "deny",
       "priority" : "high",
